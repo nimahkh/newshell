@@ -1,3 +1,6 @@
+![Tests](https://github.com/nimahkh/newshell/actions/workflows/tests.yml/badge.svg)
+
+
 <div align="center">
 <img src="https://raw.githubusercontent.com/Nimahkh/newshell/main/newshell.png"/>
 </div>
@@ -34,23 +37,63 @@ npm run dev
 
 ## Adding Your Own Sources
 
+
+
 To add your own news sources, open the `src/config/sources.ts` file and add a new source object to the `sources` array. Each source object should have the following structure:
 
+
+
 ```typescript
+
 {
+
   id: "your-source-id", // a unique identifier for the source
+
   name: "Your Source Name", // the name of the source to be displayed
+
   lang: "en", // the language of the source (e.g., "en", "fa", "nl")
+
   rss: "https://your-source-rss-feed.com/rss", // the URL of the RSS feed
+
   categories: {
+
     // a map of categories to keywords
+
     politics: ["government", "parliament", "minister"],
+
     economy: ["economy", "inflation", "market"],
+
     culture: ["movie", "festival", "art"],
+
   },
+
 }
+
 ```
 
+## Available Scripts
+
+In the project directory, you can run the following scripts:
+
+### `npm run dev`
+
+Runs the app in the development mode.
+
+### `npm run build`
+
+Builds the app for production to the `dist` folder.
+
+### `npm start`
+
+Runs the built app from the `dist` folder.
+
+### `npm run lint`
+
+Lints the source code using ESLint.
+
+### `npm run format`
+
+Formats the source code using Prettier.
 
 ## Contributing
 

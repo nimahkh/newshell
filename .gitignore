@@ -5,4 +5,4 @@ coverage
 .vscode
 .idea
 .git
-sources.*
+src/sources.*
