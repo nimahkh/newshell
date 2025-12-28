@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/Nimahkh/newshell/main/newshell.png" width="400" />
+<img src="https://raw.githubusercontent.com/Nimahkh/newshell/main/newshell.png"/>
 </div>
 
 # 📰 NewsHell 
