@@ -2,7 +2,7 @@
 <img src="https://raw.githubusercontent.com/Nimahkh/newshell/main/newshell.png"/>
 </div>
 
-# 📰 NewsHell 
+# 📰 NewsHell (News + Shell + Doom style)
 
 **NewsHell** is a terminal-based RSS news reader with a nostalgic Doom-inspired interface. It's designed for developers and terminal enthusiasts who want to stay updated with the latest news without leaving their command line.
 
