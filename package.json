@@ -2,9 +2,10 @@
   "name": "newshell",
   "version": "1.0.0",
   "license": "MIT",
+  "author": "Nima Habibkhoda",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Nima-Y/newshell.git"
+    "url": "https://github.com/Nimahkh/newshell.git"
   },
   "type": "module",
   "bin": {
